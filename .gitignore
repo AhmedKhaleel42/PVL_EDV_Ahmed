@@ -1,0 +1,6 @@
+cesium-app/node_modules
+cesium-app/dist
+node_modules
+dist
+~$*
+*.tmp
