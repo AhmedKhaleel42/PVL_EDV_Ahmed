@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cesium 3D-Webkarte - PVL EDV</title>
+</head>
+<body>
+  <div id="cesiumContainer"></div>
+
+  <!-- Werkzeugleiste (Sandcastle-Style Features) -->
+  <div id="toolbar">
+    <h3>3D-Karte Steuerung</h3>
+    <button id="btnHome">Zu den Gebaeuden fliegen</button>
+    <button id="btnLighting">Beleuchtung an/aus</button>
+    <button id="btnShadows">Schatten an/aus</button>
+    <button id="btnStyle">Gebaeude nach Hoehe faerben</button>
+    <button id="btnNoon">Sonnenstand: Mittag</button>
+  </div>
+
+  <!-- Info-Box fuer angeklickte Gebaeude -->
+  <div id="infoBox"></div>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
